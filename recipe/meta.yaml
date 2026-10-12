@@ -1,14 +1,14 @@
 {% set python_min = "3.10.0" %}
 {% set name = "gym-pusht" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gym_pusht-{{ version }}.tar.gz
-  sha256: b748dc5282c41b504df16359df26d3c2184e194edd20cde691fcda9fdc277005
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/gym_pusht-{{ version }}.tar.gz
+  sha256: cd7ac4d1330b24a9e64faed22ca0ad36a0419b846554f67cd03da2274c4ed39a
 
 build:
   noarch: python
